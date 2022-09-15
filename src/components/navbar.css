@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka", "Merriweather", "Playfair Display", "Yellowtail";
+}
+
+:root {
+    font-size: 16px;
+    font-family: "Fredoka", "Merriweather", "Playfair Display", "Yellowtail";
+    --text-primary: white;
+    --text-secondary: #ffc107;
+    --bg-primary: #transparent;
+    --bg-secondary: black;
+}
+
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-secondary);
+}
