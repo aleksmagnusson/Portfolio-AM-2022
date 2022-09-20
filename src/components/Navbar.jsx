@@ -9,22 +9,22 @@ function Navbar() {
                 <NavLink exact to="/homepage" className="nav-logo"> Logotype </NavLink>
                 <ul className='nav-menu'>
                     <li className='nav-item'>
-                        <NavLink exact to="/homepage" activeClassName="active" className="nav-links">
+                        <NavLink to="/homepage" activeClassName="active" className="nav-links">
                             Home
                         </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink exact to="/contact" activeClassName="active" className="nav-links">
+                        <NavLink to="/contact" activeClassName="active" className="nav-links">
                             Contact
                         </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink exact to="/about" activeClassName="active" className="nav-links">
+                        <NavLink to="/about" activeClassName="active" className="nav-links">
                             About
                         </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink exact to="/showcase" activeClassName="active" className="nav-links">
+                        <NavLink to="/showcase" activeClassName="active" className="nav-links">
                             Showcase
                         </NavLink>
                     </li>
