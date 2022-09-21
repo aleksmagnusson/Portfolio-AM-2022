@@ -1,18 +1,29 @@
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+// Import BrowserRouter
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+// Pages
 import Front from './components/Front'
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
+import Contact from "./components/Pages/Contact";
+import Showcase from "./components/Pages/Showcase";
+import Navbar from "./components/Navbar";
+// Css
 import './App.css'
 
 function App() {
 
   return (
     <div className='App'>
-      <BrowserRouter>
-        <Router>
-          <Routes>
-            <Route path="/front" element={<Front />} />
-          </Routes>
-        </Router>
-      </BrowserRouter>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Front />} />
+          <Route path="/home" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/showcase" component={Showcase} />
+        </Routes>
+      </Router>
     </div>
   )
 }

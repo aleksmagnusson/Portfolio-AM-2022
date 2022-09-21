@@ -62,6 +62,8 @@ button {
 }
 
 button:hover {
-    transition: ease-in-out 0.2s;
-    color: #ffc107;
+    transition: ease-in-out 0.4s;
+    background-color: #ffc107;
+    cursor: pointer;
+    color: black;
 }
