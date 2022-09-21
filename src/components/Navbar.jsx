@@ -14,8 +14,8 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink to="/contact" activeClassName="active" className="nav-links">
-                            Contact
+                        <NavLink to="/showcase" activeClassName="active" className="nav-links">
+                            Showcase
                         </NavLink>
                     </li>
                     <li className='nav-item'>
@@ -24,8 +24,8 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink to="/showcase" activeClassName="active" className="nav-links">
-                            Showcase
+                        <NavLink to="/contact" activeClassName="active" className="nav-links">
+                            Contact
                         </NavLink>
                     </li>
                 </ul>
