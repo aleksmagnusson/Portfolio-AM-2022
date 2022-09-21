@@ -17,7 +17,7 @@ function Front() {
                     <Router>
                         <Navbar />
                         <Routes>
-                            <Route path="/home" component={Home} />
+                            <Route path="/" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/contact" component={Contact} />
                             <Route path="/showcase" component={Showcase} />
