@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className="nav-container">
-                <NavLink exact to="/homepage" className="nav-logo"> Logotype </NavLink>
+                <NavLink to="/" className="nav-logo"> Logotype </NavLink>
                 <ul className='nav-menu'>
                     <li className='nav-item'>
                         <NavLink to="/homepage" activeClassName="active" className="nav-links">
