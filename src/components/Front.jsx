@@ -16,8 +16,10 @@ function Front() {
                         <br />
                         <h4>Photographer | content creator | frontend dev student</h4>
                         <br />
-                        <button as={Link} to="/showcase"> Dive into my adventure.</button>
-                        <button as={Link} to="/contact"> Contact me.</button>
+                        <div>
+                            <button as={Link} to="/showcase"> Dive into my adventure.</button>
+                            <button as={Link} to="/contact"> Contact me.</button>
+                        </div>
                     </div>
                 </div>
             </div>
