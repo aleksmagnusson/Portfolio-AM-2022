@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import { BrowserRouter as Router, Route } from "react-router-dom"
 import frontVideo from "../assets/aleksEdit1.mp4";
 import "../components/front.css";
 
@@ -15,6 +14,7 @@ function Front() {
             <h4>Photographer | content creator | frontend dev student</h4>
             <br />
             <div>
+              <Link to="/showcase">showcase</Link>
               <button as={Link} to="/showcase">
                 {" "}
                 Dive into my adventure.

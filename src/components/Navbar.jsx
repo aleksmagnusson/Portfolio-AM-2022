@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <NavLink to="/home" className="nav-logo">
+        <NavLink src="" to="/" className="nav-logo">
           {" "}
           Logotype{" "}
         </NavLink>
