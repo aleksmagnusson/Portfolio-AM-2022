@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../components/navbar.css";
+import mainLogo from '../assets/Logoamweb400400gold.png'
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <NavLink src="" to="/" className="nav-logo">
-          {" "}
-          Logotype{" "}
+        <NavLink src="Logoamweb400400gold.png" to="/">
+          <img src={mainLogo} alt="AM" />
         </NavLink>
         <ul className="nav-menu">
           <li className="nav-item">

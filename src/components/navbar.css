@@ -36,14 +36,10 @@
     max-width: fit-content;
 }
 
-.nav.logo {
-    color: #ffc107;
-    align-items: center;
-    margin-left: 20 px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    flex-grow: 2;
+img {
+    width: 2rem;
+    height: 2rem;
+    padding: 2rem;
 }
 
 .nav-menu {
