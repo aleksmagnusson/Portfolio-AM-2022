@@ -1,7 +1,7 @@
 // Import BrowserRouter
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 // Pages
-import Front from './components/Front'
+import Front from './components/Pages/Front'
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";

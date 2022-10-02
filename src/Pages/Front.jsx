@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 // import { BrowserRouter as Router, Route } from "react-router-dom"
 import frontVideo from '../assets/aleksEdit1.mp4'
 import '../components/front.css'
-import Navbar from './Navbar'
 
 function Front() {
 
