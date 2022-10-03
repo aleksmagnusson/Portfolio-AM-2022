@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact";
 import Showcase from "./Pages/Showcase";
 import Navbar from "./components/Navbar";
 // Css
-import "./App.css";
+// import "./App.css";
 
 function App() {
   return (
