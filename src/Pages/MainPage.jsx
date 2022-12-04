@@ -12,17 +12,17 @@ function MainPage() {
 
     return (
         <div>
-            <section id='home' href="#home">
-                <Home href="#home" />
+            <section id='home'>
+                <Home />
             </section>
-            <section id='showcase' href="#showcase">
-                <Showcase href="#showcase" />
+            <section id='showcase'>
+                <Showcase />
             </section>
-            <section id='about' href="#about">
-                <About href="#about" />
+            <section id='about'>
+                <About />
             </section>
-            <section id='contact' href="#contact">
-                <Contact href="#contact" />
+            <section id='contact'>
+                <Contact />
             </section>
         </div>
     )

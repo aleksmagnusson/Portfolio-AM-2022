@@ -1,7 +1,7 @@
 {
   "name": "Aleks Magnusson Dev 22'",
   "short_name": "Aleks Innit 22'",
-  "start_url": "/src/main.jsx=true",
+  "start_url": "/main.jsx=true",
   "description": "Aleks Magnusson Frontend Develop page, welcome to look around. Currently learing about PWA",
   "icons": [
     {
