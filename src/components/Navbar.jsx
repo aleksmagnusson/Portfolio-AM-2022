@@ -4,6 +4,9 @@ import "../components/navbar.css";
 import mainLogo from '../assets/Logoamweb400400gold.png'
 
 function Navbar() {
+
+
+
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -12,13 +15,14 @@ function Navbar() {
         </NavLink>
         <ul className="nav-menu">
           <li className="nav-item">
-            <NavLink to="/home" activeclassname="active" className="nav-links">
+            <NavLink id="home" to="/mainpage#home" activeclassname="active" className="nav-links">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              to="/showcase"
+              id="showcase"
+              to="/mainpage#showcase"
               activeclassname="active"
               className="nav-links"
             >
@@ -26,13 +30,14 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/about" activeclassname="active" className="nav-links">
+            <NavLink id="about" to="/mainpage#about" activeclassname="active" className="nav-links">
               About
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              to="/contact"
+              id="contact"
+              to="/mainpage#contact"
               activeclassname="active"
               className="nav-links"
             >

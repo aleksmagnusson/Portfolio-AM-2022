@@ -15,11 +15,11 @@ function Front() {
                         <h4>Photographer | content creator | frontend dev student</h4>
                         <br />
                         <div>
-                            <Link to="/showcase">
+                            <Link to="/mainpage">
                                 <button>Dive in to my adventure</button>
                             </Link>
-                            <Link to="/contact">
-                                <button>Contact me!</button>
+                            <Link to="/mainpage#contact">
+                                <button>Contact me</button>
                             </Link>
                         </div>
                     </div>
