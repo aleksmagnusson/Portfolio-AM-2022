@@ -1,0 +1,24 @@
+{
+  "name": "Aleks Magnusson Dev 22'",
+  "short_name": "Aleks Innit 22'",
+  "start_url": "/src/main.jsx=true",
+  "description": "Aleks Magnusson Frontend Develop page, welcome to look around. Currently learing about PWA",
+  "icons": [
+    {
+      "src": "icons/apple-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/apple-splash-640-1136.jpg",
+      "sizes": "640x1136",
+      "type": "image/jpg",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
