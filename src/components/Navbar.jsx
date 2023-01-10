@@ -15,14 +15,14 @@ function Navbar() {
         </NavLink>
         <ul className="nav-menu">
           <li className="nav-item">
-            <NavLink id="home" to="/#home" activeclassname="active" className="nav-links">
+            <NavLink id="home" to="/home" activeclassname="active" className="nav-links">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
               id="showcase"
-              to="/#showcase"
+              to="/showcase"
               activeclassname="active"
               className="nav-links"
             >
@@ -30,14 +30,14 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink id="about" to="/#about" activeclassname="active" className="nav-links">
+            <NavLink id="about" to="/about" activeclassname="active" className="nav-links">
               About
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
               id="contact"
-              to="/#contact"
+              to="/contact"
               activeclassname="active"
               className="nav-links"
             >
